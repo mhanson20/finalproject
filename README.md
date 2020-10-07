@@ -20,15 +20,16 @@ Some guidelines and tips:
 
 OK, here we go.
 
-# Title of my project
+# A Total Evidence Tree for Palaeognathous Birds
 
 ## Introduction and Goals
 
-The goal of my project is to answer the question, What is...?
+In this project, I aim to answer the questions: What are the phylogenetic relationships amongst the palaeognath birds (ratites and tinamous) given the current data available from molecules and morphology? An,d how do morphological character distributions optimize within that tree.
 
-The methods I will use to do this are...
+For my methods, I will construct and analyze molecular trees from genomic and genetic data using Maximum Likelihood methods in IQtree, I will also use these trees to analyze morphologicxcal charactrer distributions, and I will construct and analyze molecular and molecular+morphological trees using Bayesian methods in RevBayes as well.
 
-The data I will use are (my own data/ data publicly available at YYY/ simulations)
+I will use data from published and publicly-available genomic and other molecular studies (most importantly, Mitchell et al. 2014 and Yonezawa et al. 2017) available on GenBank.  In the years since those studies were published, more species in this group (especially tinamous) have become available, and I will incorporate these newly released genomic data from the B10K project (recently made available on GenBank) and other smaller sequences from genetic studies (also publicly available on GenBank).
+I will also incorporate morphological character data using character sets ands matrices from the morphological studies of Nesbitt and Clarke (2016), Mitchell et al. (2014), Worthy and Scofield (2012), Johnston (2011), and Bertelli et al. (2014). These matrices are generally non-overlapping in the characters used and often lack a number of key taxa covered by molecular data (particularly elephantbirds, Aepyornithiformes). In cases where characters are not coded for a particular taxon, I will preliminarily use published anatomical descriptions, though firsthand examination of specimens is ideal and will be attempted should access to museum collections become available.
 
 ## Methods
 
