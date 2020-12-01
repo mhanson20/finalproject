@@ -1,0 +1,172 @@
+IQ-TREE multicore version 1.6.12 for Linux 64-bit built Aug 15 2019
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    fermat (AVX2, FMA3, 1009 GB RAM)
+Command: ../../iqtree -s palaeognath_jc.fasta -m TEST -alrt 1000 -te palaeognath_constraint.constr
+Seed:    535304 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Nov 27 22:25:57 2020
+Kernel:  AVX+FMA - 1 threads (128 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 128 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file palaeognath_jc.fasta ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 15 sequences with 10000 columns, 2232 distinct patterns
+3139 parsimony-informative, 3789 singleton sites, 3071 constant sites
+                          Gap/Ambiguity  Composition  p-value
+   1  Gallus_gallus               0.00%    passed     86.05%
+   2  Struthio_camelus            0.00%    passed     99.94%
+   3  Rhea_americana              0.00%    passed     57.68%
+   4  Rhea_pennata                0.00%    passed     66.85%
+   5  Casuarius_casuarius         0.00%    passed     98.70%
+   6  Dromaius_novaehollandiae    0.00%    passed     99.63%
+   7  Apteryx_haastii             0.00%    passed     99.35%
+   8  Apteryx_owenii              0.00%    passed     99.30%
+   9  Apteryx_mantelli            0.00%    passed     99.92%
+  10  Apteryx_rowi                0.00%    passed     99.75%
+  11  Anomalopteryx_didinus       0.00%    passed     83.90%
+  12  Crypturellus_cinnamomeus    0.00%    passed     89.12%
+  13  Tinamus_guttatus            0.00%    passed     98.40%
+  14  Eudromia_elegans            0.00%    passed     87.28%
+  15  Nothoprocta_perdicaria      0.00%    passed     95.26%
+****  TOTAL                       0.00%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+
+Reading input tree file palaeognath_constraint.constr ... rooted tree
+WARNING: 28 undefined/negative branch lengths are initialized with parsimony
+NOTE: ModelFinder requires 4 MB RAM!
+ModelFinder will test 88 DNA models (sample size: 10000) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+Converting rooted to unrooted tree...
+  1  JC            61823.541    27  123701.082   123701.233   123895.761
+  2  JC+I          61819.584    28  123695.169   123695.332   123897.058
+  3  JC+G4         61813.704    28  123683.409   123683.571   123885.298
+  4  JC+I+G4       61817.586    29  123693.171   123693.346   123902.271
+  5  F81+F         61821.336    30  123702.672   123702.859   123918.983
+  6  F81+F+I       61817.416    31  123696.833   123697.032   123920.353
+  7  F81+F+G4      61811.550    31  123685.100   123685.299   123908.620
+  8  F81+F+I+G4    61815.346    32  123694.692   123694.904   123925.423
+  9  K2P           61823.515    28  123703.030   123703.193   123904.920
+ 10  K2P+I         61819.558    29  123697.116   123697.291   123906.216
+ 11  K2P+G4        61813.674    29  123685.348   123685.522   123894.448
+ 12  K2P+I+G4      61817.373    30  123694.746   123694.933   123911.056
+ 13  HKY+F         61821.314    31  123704.628   123704.827   123928.149
+ 14  HKY+F+I       61817.392    32  123698.785   123698.997   123929.516
+ 15  HKY+F+G4      61811.522    32  123687.044   123687.256   123917.775
+ 16  HKY+F+I+G4    61815.143    33  123696.287   123696.512   123934.228
+ 17  TNe           61823.515    29  123705.030   123705.205   123914.130
+ 18  TNe+I         61819.558    30  123699.115   123699.302   123915.426
+ 19  TNe+G4        61813.674    30  123687.348   123687.535   123903.658
+ 20  TNe+I+G4      61817.203    31  123696.406   123696.605   123919.927
+ 21  TN+F          61820.921    32  123705.843   123706.055   123936.574
+ 22  TN+F+I        61817.024    33  123700.048   123700.274   123937.990
+ 23  TN+F+G4       61811.130    33  123688.259   123688.484   123926.201
+ 24  TN+F+I+G4     61814.610    34  123697.219   123697.458   123942.371
+ 25  K3P           61823.444    29  123704.888   123705.063   123913.988
+ 26  K3P+I         61819.486    30  123698.972   123699.159   123915.283
+ 27  K3P+G4        61813.602    30  123687.205   123687.391   123903.515
+ 28  K3P+I+G4      61816.974    31  123695.947   123696.146   123919.468
+ 29  K3Pu+F        61821.240    32  123706.481   123706.693   123937.212
+ 30  K3Pu+F+I      61817.317    33  123700.635   123700.860   123938.576
+ 31  K3Pu+F+G4     61811.448    33  123688.895   123689.120   123926.836
+ 32  K3Pu+F+I+G4   61814.752    34  123697.504   123697.743   123942.655
+ 33  TPM2+F        61820.636    32  123705.272   123705.484   123936.003
+ 34  TPM2+F+I      61816.745    33  123699.490   123699.716   123937.432
+ 35  TPM2+F+G4     61810.886    33  123687.772   123687.997   123925.713
+ 36  TPM2+F+I+G4   61814.126    34  123696.252   123696.491   123941.403
+ 37  TPM2u+F       61820.636    32  123705.272   123705.484   123936.003
+ 38  TPM2u+F+I     61816.745    33  123699.490   123699.716   123937.432
+ 39  TPM2u+F+G4    61810.886    33  123687.772   123687.997   123925.713
+ 40  TPM2u+F+I+G4  61814.056    34  123696.111   123696.350   123941.263
+ 41  TPM3+F        61819.865    32  123703.730   123703.942   123934.461
+ 42  TPM3+F+I      61815.932    33  123697.864   123698.089   123935.805
+ 43  TPM3+F+G4     61810.093    33  123686.187   123686.412   123924.128
+ 44  TPM3+F+I+G4   61813.170    34  123694.340   123694.579   123939.492
+ 45  TPM3u+F       61819.865    32  123703.730   123703.942   123934.461
+ 46  TPM3u+F+I     61815.932    33  123697.864   123698.089   123935.805
+ 47  TPM3u+F+G4    61810.093    33  123686.187   123686.412   123924.128
+ 48  TPM3u+F+I+G4  61813.105    34  123694.210   123694.449   123939.362
+ 49  TIMe          61823.444    30  123706.888   123707.075   123923.199
+ 50  TIMe+I        61819.486    31  123700.972   123701.171   123924.492
+ 51  TIMe+G4       61813.603    31  123689.205   123689.404   123912.726
+ 52  TIMe+I+G4     61816.561    32  123697.122   123697.334   123927.853
+ 53  TIM+F         61820.848    33  123707.695   123707.920   123945.636
+ 54  TIM+F+I       61816.949    34  123701.898   123702.137   123947.050
+ 55  TIM+F+G4      61811.055    34  123690.110   123690.349   123935.262
+ 56  TIM+F+I+G4    61813.979    35  123697.959   123698.212   123950.321
+ 57  TIM2e         61822.450    30  123704.899   123705.086   123921.209
+ 58  TIM2e+I       61818.524    31  123699.047   123699.246   123922.568
+ 59  TIM2e+G4      61812.648    31  123687.296   123687.495   123910.816
+ 60  TIM2e+I+G4    61815.494    32  123694.989   123695.201   123925.720
+ 61  TIM2+F        61820.244    33  123706.488   123706.713   123944.429
+ 62  TIM2+F+I      61816.377    34  123700.754   123700.993   123945.906
+ 63  TIM2+F+G4     61810.494    34  123688.988   123689.226   123934.139
+ 64  TIM2+F+I+G4   61813.307    35  123696.614   123696.867   123948.976
+ 65  TIM3e         61823.045    30  123706.090   123706.277   123922.400
+ 66  TIM3e+I       61819.095    31  123700.190   123700.389   123923.710
+ 67  TIM3e+G4      61813.239    31  123688.478   123688.677   123911.999
+ 68  TIM3e+I+G4    61815.955    32  123695.910   123696.122   123926.641
+ 69  TIM3+F        61819.473    33  123704.946   123705.171   123942.887
+ 70  TIM3+F+I      61815.564    34  123699.128   123699.367   123944.279
+ 71  TIM3+F+G4     61809.701    34  123687.402   123687.640   123932.553
+ 72  TIM3+F+I+G4   61812.381    35  123694.761   123695.014   123947.123
+ 73  TVMe          61821.910    31  123705.819   123706.018   123929.340
+ 74  TVMe+I        61817.991    32  123699.981   123700.193   123930.712
+ 75  TVMe+G4       61812.143    32  123688.286   123688.498   123919.017
+ 76  TVMe+I+G4     61814.761    33  123695.522   123695.747   123933.463
+ 77  TVM+F         61819.116    34  123706.233   123706.472   123951.385
+ 78  TVM+F+I       61815.213    35  123700.426   123700.679   123952.788
+ 79  TVM+F+G4      61809.386    35  123688.772   123689.024   123941.133
+ 80  TVM+F+I+G4    61811.950    36  123695.900   123696.167   123955.472
+ 81  SYM           61821.909    32  123707.818   123708.030   123938.549
+ 82  SYM+I         61817.990    33  123701.980   123702.205   123939.921
+ 83  SYM+G4        61812.143    33  123690.286   123690.511   123928.227
+ 84  SYM+I+G4      61814.660    34  123697.320   123697.559   123942.472
+ 85  GTR+F         61818.724    35  123707.447   123707.700   123959.809
+ 86  GTR+F+I       61814.845    36  123701.691   123701.958   123961.263
+ 87  GTR+F+G4      61808.994    36  123689.989   123690.256   123949.561
+ 88  GTR+F+I+G4    61811.478    37  123696.957   123697.239   123963.739
+Akaike Information Criterion:           JC+G4
+Corrected Akaike Information Criterion: JC+G4
+Bayesian Information Criterion:         JC+G4
+Best-fit model: JC+G4 chosen according to BIC
+
+All model information printed to palaeognath_jc.fasta.model.gz
+CPU time for ModelFinder: 3.648 seconds (0h:0m:3s)
+Wall-clock time for ModelFinder: 3.818 seconds (0h:0m:3s)
+Converting rooted to unrooted tree...
+
+NOTE: 4 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -62435.650
+2. Current log-likelihood: -61846.512
+3. Current log-likelihood: -61813.826
+4. Current log-likelihood: -61813.705
+Optimal log-likelihood: -61813.704
+Rate parameters:  A-C: 1.00000  A-G: 1.00000  A-T: 1.00000  C-G: 1.00000  C-T: 1.00000  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Gamma shape alpha: 12.708
+Parameters optimization took 4 rounds (0.107 sec)
+BEST SCORE FOUND : -61813.704
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+Alternative NNI shows better log-likelihood -61812.182 > -61813.704
+Alternative NNI shows better log-likelihood -61813.438 > -61813.704
+Alternative NNI shows better log-likelihood -61813.239 > -61813.704
+Alternative NNI shows better log-likelihood -61659.656 > -61813.704
+3.026 sec.
+Total tree length: 1.262
+
+Total number of iterations: 0
+CPU time used for tree search: 0.000 sec (0h:0m:0s)
+Wall-clock time used for tree search: 0.000 sec (0h:0m:0s)
+Total CPU time used: 3.108 sec (0h:0m:3s)
+Total wall-clock time used: 3.212 sec (0h:0m:3s)
+
+Analysis results written to: 
+  IQ-TREE report:                palaeognath_jc.fasta.iqtree
+  Maximum-likelihood tree:       palaeognath_jc.fasta.treefile
+  Screen log file:               palaeognath_jc.fasta.log
+
+Date and Time: Fri Nov 27 22:26:04 2020

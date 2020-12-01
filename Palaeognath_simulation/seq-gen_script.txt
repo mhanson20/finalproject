@@ -1,0 +1,1 @@
+seq-gen -mGTR -f0.25,0.25,0.25,0.25 -r1,1,1,1,1,1 -s0.001 -l10000 of < Cloutier_intron_tree.tre > palaeognath_jc.fasta

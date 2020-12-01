@@ -1,0 +1,2 @@
+path_to_iqtree -s palaeognath_jc.fasta -st DNA -m TEST -bb 1000 -alrt 1000
+path_to_iqtree -s palaeognath_jc.fasta -m TEST -alrt 1000 -te palaeognath_constraint.constr

@@ -1,0 +1,17 @@
+Bertelli S., Chiappe, L. M., Mayr, G. Phylogenetic interrelationships of living and extinct Tinamidae, volant palaeognathous birds from the New World. Zoological Journal of the Linnean Society 172 (1): 145–184.  https://doi.org/10.1111/zoj.12156
+ 
+Cloutier et al. 2019. Whole-Genome Analyses Resolve the Phylogeny of Flightless Birds (Palaeognathae) in the Presence of an Empirical Anomaly Zone. Systematic Biology 68 (6): 937–955. https://doi.org/10.1093/sysbio/syz019
+ 
+Johnston P. 2011. New morphological evidence supports congruent phylogenies and Gondwana vicariance for palaeognathous. Zoological Journal of the Linnean Society 163(3):959–982. https://doi.org/10.1111/j.1096-3642.2011.00730.x 
+ 
+Mitchell K.J., Llamas B., Soubrier J., Rawlence N.J., Worthy T.H., Wood J., Lee M.S.Y., Cooper A. 2014. Ancient DNA reveals elephant birds and kiwi are sister taxa and clarifies ratite bird evolution. Science 344: 898–900. https://doi.org/10.1126/science.1251981
+ 
+Nesbitt S.J., Clarke J. A. 2016. The anatomy and taxonomy of the exquisitely preserved Green River Formation (early Eocene) lithornithids (Aves) and the relationships of Lithornithidae. Bulletin of the American Museum of Natural History 406: 1–91. http://hdl.handle.net/2246/6664
+ 
+L.-T. Nguyen, H.A. Schmidt, A. von Haeseler, B.Q. Minh. 2015. IQ-TREE: A fast and effective stochastic algorithm for estimating maximum likelihood phylogenies.. Mol. Biol. Evol. 32:268-274. https://doi.org/10.1093/molbev/msu300
+ 
+Rambaut, A. and Grassly, N. C. 1997. Seq-Gen: An application for the Monte Carlo simulation of DNA sequence evolution along phylogenetic trees. Comput. Appl. Biosci. 13: 235-238. https://snoweye.github.io/phyclust/document/Seq-Gen.v.1.3.2/Seq-Gen.Manual.html
+ 
+Worthy, T. H., Scofield, R. P. 2012. Twenty-first century advances in knowledge of the biology of moa (Aves: Dinornithiformes): a new morphological analysis and moa diagnoses revised, New Zealand Journal of Zoology 39 (2): 87–153. https://doi.org/10.1080/03014223.2012.665060
+ 
+Yonezawa T., Segawa T., Mori H., Campos P.F., Hongoh Y., Endo H., Akiyoshi A., Kohno N., Nishida S., Wu J., Jin H., Adachi J., Kishino H., Kurokawa K., Nogi Y., Tanabe H., Mukoyama H., Yoshida K., Rasoamiaramanana A., Yamagishi S., Hayashi Y., Yoshida A., Koike H., Akishinonomiya F., Willerslev E., Hasegawa M. 2017. Phylogenomics and morphology of extinct paleognaths reveal the origin and evolution of the ratites. Current Biology 27:68–77. https://doi.org/10.1016/j.cub.2016.10.029
